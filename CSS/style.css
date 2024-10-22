@@ -1,0 +1,22 @@
+#imageGobleu {
+    width: 100%;
+}
+
+#titre_principal{
+    text-align: left;
+}
+
+header {
+    background-color: lightgray;
+}
+
+footer {
+    background-color: lightgray;
+    height: 200px;
+}
+
+#images{
+    width: 80%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
