@@ -1,28 +1,34 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="CSS/style.css" rel="stylesheet">
     <title>TP1 - GoBleu</title>
 </head>
 <body>
-    <header class="container-fluid text-center">
-        <div>
-            <h1>GoBleu</h1>
-        </div>
-        <p>
-            <a href="index.html">Acceuil</a>
-            |
-            <a href="src/site.html"> Sites</a>
-            |
-            <a href="src/contact.html">Contact</a>
-        </p>
-    </header>
+<!-- Header -->
+<header class="container text-center">
+    <!-- Titre -->
+    <div>
+        <h1>GoBleu</h1>
+    </div>
+    <!-- Lien Menu -->
+    <p>
+        <a href="index.html">Acceuil</a>
+        |
+        <a href="src/site.html"> Sites</a>
+        |
+        <a href="src/contact.html">Contact</a>
+    </p>
+</header>
+
+<!-- Contenu Principale -->
+<main class="container main">
     <div id="images" class="container-fluid">
         <div class="row">
-
 
 
             <div class="col-4">
@@ -31,71 +37,74 @@
 
 
             <div class="col-4">
-                <img id="imageGobleu" src="image/images%201.jpg" class="img-fluid" alt="imahe centre">
+                <img src="image/images%201.jpg" class="img-fluid" alt="imahe centre">
             </div>
 
 
             <div class="col-4">
-                <img id="imageDroite" src="image/image%203.jpg" class="img-fluid" alt="imahe gauche">
+                <img src="image/image%203.jpg" class="img-fluid" alt="imahe gauche">
             </div>
         </div>
 
+        <!-- Selection text -->
+        <div id="acceuilPara" class="container-fluid">
+            <div>
+                <h2>Titre Principal</h2>
+            </div>
+            <div>
+                <p>
+                    The GOBLEU (Greenhouse gas Observations of Biospheric and Local Emissions from the Upper sky)
+                    Project is a monitoring project to monitor Japan's subnational climate mitigation progress by
+                    applying the technologies of the Greenhouse Gases Observing SATellite "IBUKI" (GOSAT) to make
+                    observations of urban greenhouse gases (carbon dioxide), air quality (nitrogen dioxide) and
+                    solar induced chlorophyl fluorescence (SIF) from the windows of passenger airplanes.
+                    By combining data from space and the sky it seeks to make visible the emissions of
+                    greenhouse gases from individual source sectors, such as transportation and industry.
+                    As SUTO Hiroshi, Associate Senior Researcher at JAXA explains: "As IBUKI makes its
+                    observations from space, it is rather difficult to capture the individual greenhouse gas
+                    emission sources in urban areas. But by combining the IBUKI data with the data obtained from
+                    passenger airplanes, we are aiming to ascertain more accurate emission estimates from
+                    individual source sectors. If we can derive measures to reduce greenhouse gases from this
+                    data, we hope that it will tie in with the promotion of effective global warming
+                    countermeasures." It was while on a business trip that Suto hit upon the concept.
+                    When he half-jokingly proposed the idea to his research group, things progressed at once.
+                    First of all they checked which wavelength transmits through a window of passenger airplanes.
+                    Once it was clear that observations could be satisfactorily made, JAXA's monitoring
+                    instruments were taken aboard a passenger airplane operated by ANA Holdings Inc., and
+                    observations started on a regular basis last October on ANA flights between Tokyo's Haneda
+                    Airport and Fukuoka Airport. In order to demonstrate the feasibility of making observations
+                    from passenger airplanes, the project is first of all concentrating on observations of the
+                    nitrogen dioxide (NO2) that is simultaneously emitted with carbon dioxide (CO2) in the
+                    combustion process. Suto says: "The COVID-19 crisis restricted the number of observations
+                    we could make, but upon comparing the observational data from the passenger airplanes with
+                    the observational data from IBUKI we were able to clearly capture the spatial distribution
+                    of nitrogen dioxide beneath the flight path. This provides us with an indicator showing the
+                    emission and spatial distribution of greenhouse gases from urban areas.
+                    The ultimate target of GOBLEU is to clarify greenhouse gas "emissions" and "absorption."
+                    According to Suto, because greenhouse gas concentrations change due to the impact of wind
+                    direction and wind speed, the project is currently at the stage of increasing the frequency
+                    of observations. "We first of all hope to increase the data, and thereby minimize the margin
+                    of error in order to estimate emissions. We also intend to expand observations by using the
+                    air route between Tokyo and Sapporo, and want to tie this in with ascertaining the volume of
+                    greenhouse gas absorbed by forested areas. We are pursuing more compact instruments with the
+                    hope of conducting observations like a video camera in the future."
 
-            <div class="container-fluid">
-                <div>
-                    <h2>Titre Principal</h2>
-                </div>
-                <div>
-                    <p>
-                        The GOBLEU (Greenhouse gas Observations of Biospheric and Local Emissions from the Upper sky)
-                        Project is a monitoring project to monitor Japan's subnational climate mitigation progress by
-                        applying the technologies of the Greenhouse Gases Observing SATellite "IBUKI" (GOSAT) to make
-                        observations of urban greenhouse gases (carbon dioxide), air quality (nitrogen dioxide) and
-                        solar induced chlorophyl fluorescence (SIF) from the windows of passenger airplanes.
-                        By combining data from space and the sky it seeks to make visible the emissions of
-                        greenhouse gases from individual source sectors, such as transportation and industry.
-                        As SUTO Hiroshi, Associate Senior Researcher at JAXA explains: "As IBUKI makes its
-                        observations from space, it is rather difficult to capture the individual greenhouse gas
-                        emission sources in urban areas. But by combining the IBUKI data with the data obtained from
-                        passenger airplanes, we are aiming to ascertain more accurate emission estimates from
-                        individual source sectors. If we can derive measures to reduce greenhouse gases from this
-                        data, we hope that it will tie in with the promotion of effective global warming
-                        countermeasures." It was while on a business trip that Suto hit upon the concept.
-                        When he half-jokingly proposed the idea to his research group, things progressed at once.
-                        First of all they checked which wavelength transmits through a window of passenger airplanes.
-                        Once it was clear that observations could be satisfactorily made, JAXA's monitoring
-                        instruments were taken aboard a passenger airplane operated by ANA Holdings Inc., and
-                        observations started on a regular basis last October on ANA flights between Tokyo's Haneda
-                        Airport and Fukuoka Airport. In order to demonstrate the feasibility of making observations
-                        from passenger airplanes, the project is first of all concentrating on observations of the
-                        nitrogen dioxide (NO2) that is simultaneously emitted with carbon dioxide (CO2) in the
-                        combustion process. Suto says: "The COVID-19 crisis restricted the number of observations
-                        we could make, but upon comparing the observational data from the passenger airplanes with
-                        the observational data from IBUKI we were able to clearly capture the spatial distribution
-                        of nitrogen dioxide beneath the flight path. This provides us with an indicator showing the
-                        emission and spatial distribution of greenhouse gases from urban areas.
-                        The ultimate target of GOBLEU is to clarify greenhouse gas "emissions" and "absorption."
-                        According to Suto, because greenhouse gas concentrations change due to the impact of wind
-                        direction and wind speed, the project is currently at the stage of increasing the frequency
-                        of observations. "We first of all hope to increase the data, and thereby minimize the margin
-                        of error in order to estimate emissions. We also intend to expand observations by using the
-                        air route between Tokyo and Sapporo, and want to tie this in with ascertaining the volume of
-                        greenhouse gas absorbed by forested areas. We are pursuing more compact instruments with the
-                        hope of conducting observations like a video camera in the future."
 
-
-                    </p>
-                </div>
+                </p>
+            </div>
         </div>
     </div>
-    <footer class="container-fluid pt-5 text-center">
+</main>
+<footer class="container-fluid pt-5 text-center">
 
-        <h3>© Billy Hallé - Technique de l'informatique</h3>
-        <h4>Cégep de Sainte-foy - Formation continue</h4>
+    <h3>© Billy Hallé - Technique de l'informatique</h3>
+    <h4>Cégep de Sainte-foy - Formation continue</h4>
 
-    </footer>
+</footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 </html>
