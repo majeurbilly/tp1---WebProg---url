@@ -1,0 +1,48 @@
+#images{
+    width: 10px;
+}
+
+#titre_principal{
+    text-align: left;
+}
+
+header {
+    background-color: gray;
+    height: 100px;
+}
+
+footer {
+    background-color: gray;
+    height: 200px;
+}
+
+#images{
+    width: 80%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+img {
+    border: 2px solid white;
+}
+
+#backgroundAcceuil{
+    background-color: dimgray;
+}
+#acceuilPara{
+    color: white;
+    padding-top: 20px;
+}
+h1{
+    color: darkslateblue;
+}
+a{
+    color: darkslategrey;
+    text-decoration: none;
+}
+textarea{
+    max-width: 450px;
+}
+input{
+    max-width: 300px;
+}
